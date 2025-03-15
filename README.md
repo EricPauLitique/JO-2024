@@ -1,5 +1,7 @@
 # SAE 2.1256 - Application Java des Jeux Olympiques
 
+Temps de projet : Janvier-Juin 2024
+
 ## Description
 Ce projet est une application Java développée dans le cadre de la SAE 2.1256. L'application permet la gestion des épreuves et des équipes des Jeux Olympiques à travers une interface graphique.
 
