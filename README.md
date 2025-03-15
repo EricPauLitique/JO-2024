@@ -2,6 +2,12 @@
 
 Temps de projet : Janvier-Juin 2024
 
+## Remerciement
+- SE ERIC
+- GADEWA STÉPHANE  
+- PIVET LUCAS  
+- LUQUET HALIM  
+
 ## Description
 Ce projet est une application Java développée dans le cadre de la SAE 2.1256. L'application permet la gestion des épreuves et des équipes des Jeux Olympiques à travers une interface graphique intuitive.
 
