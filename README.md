@@ -3,7 +3,7 @@
 Temps de projet : Janvier-Juin 2024
 
 ## Description
-Ce projet est une application Java développée dans le cadre de la SAE 2.1256. L'application permet la gestion des épreuves et des équipes des Jeux Olympiques à travers une interface graphique.
+Ce projet est une application Java développée dans le cadre de la SAE 2.1256. L'application permet la gestion des épreuves et des équipes des Jeux Olympiques à travers une interface graphique intuitive.
 
 ## Technologies utilisées
 - **Langage** : Java
@@ -12,16 +12,23 @@ Ce projet est une application Java développée dans le cadre de la SAE 2.1256. 
 - **Architecture** : MVC (Modèle-Vue-Contrôleur)
 
 ## Installation
-1. **Télécharger le répertoire** : `Application_Officiel`
-2. **Vérifier votre version de Java** : Assurez-vous d'avoir **Java 17** installé. Si ce n'est pas le cas, téléchargez-le via [ce lien](https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe).
+1. **Cloner le projet** :
+   ```sh
+   git clone https://github.com/utilisateur/projet-sae-1256.git
+   ```
+2. **Vérifier votre version de Java** :
+   - Assurez-vous d'avoir **Java 17** installé.
+   - Téléchargez-le via [ce lien](https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe) si nécessaire.
 3. **Lancer l'application** :
-   - Ouvrez le fichier `appJO.jar`.
+   - Importer le projet dans Eclipse.
+   - Compiler et exécuter la classe principale située dans le package `controleurs`.
+   - Alternativement, exécuter `appJO.jar` si une version compilée est disponible.
 
 ## Fonctionnalités principales
-- Gestion des épreuves et des équipes.
-- Ajout, modification et suppression d’éléments via une interface graphique.
-- Sérialisation des données.
-- Affichage du calendrier des sessions.
+- Gestion complète des épreuves et des équipes.
+- Ajout, modification et suppression d’éléments via une interface graphique ergonomique.
+- Sérialisation et sauvegarde des données.
+- Affichage détaillé du calendrier des sessions.
 
 ## Répartition du travail
 - **Vues et contrôleurs** : Lucas et Halim
@@ -29,9 +36,10 @@ Ce projet est une application Java développée dans le cadre de la SAE 2.1256. 
 - **Sérialisation** : Lucas
 
 ## Modifications par rapport à l’UML
-- Suppression et ajustement de certaines méthodes et classes pour optimiser la logique métier.
+- Suppression et ajustement de certaines méthodes et classes pour une meilleure optimisation.
 - Modification des relations entre les entités (ex. liaison équipe/catégorie).
-- Automatisation de la gestion des identifiants.
+- Automatisation et simplification de la gestion des identifiants.
+- Amélioration de l'architecture MVC pour une meilleure séparation des responsabilités.
 
 ## Captures d’écran
 *(Ajouter ici des images de l'interface utilisateur)*
